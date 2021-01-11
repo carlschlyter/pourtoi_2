@@ -1,0 +1,24 @@
+#hero-container,
+#hero-box {
+    padding: 0;
+    margin: 0;
+}
+
+#welcome-message-box {
+    position: absolute;
+    top: 8vw;
+    left: 5vw;
+    height: auto;
+    width: 50%;
+    backdrop-filter: blur(5px);
+    /* transition: 0.5s ease; */
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 666px) {
+
+    #welcome-message-box p {
+        display: none;
+    }
+
+}
