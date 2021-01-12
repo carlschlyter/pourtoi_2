@@ -10,11 +10,16 @@ body {
 
 body h1 {
     /* font-size: min(max(10px, 4vw), 16px);     */
-    font-size: 4.5vw;
+    font-size: 3vw;
+}
+
+body h2 {
+    /* font-size: min(max(10px, 4vw), 16px);     */
+    font-size: 2.5vw;
 }
 
 body p {
    /* font-size: min(max(10px, 4vw), 16px); */
-   font-size: 1.5vw;
+   font-size: 1.2vw;
 }
 
