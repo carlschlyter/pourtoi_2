@@ -1,0 +1,19 @@
+
+#icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+#icon-box {
+    display: flex;
+    width: 15vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-box p {
+    font-size: 1vw;
+}

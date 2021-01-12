@@ -82,8 +82,8 @@ function register_acf_block_types(){
             'name'              => 'icon-bar-section',
             'title'             => __('Icon Bar Section'),
             'description'       => __('Settings Icon Bar Section'),
-            'render_template'   => get_template_directory() . '/template-parts/blocks/_section/_section.php',
-            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/_section/_section.css',
+            'render_template'   => get_template_directory() . '/template-parts/blocks/icon_bar_section/icon_bar_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/icon_bar_section/icon_bar_section.css',
             'category'          => 'design',
         )
     );    
