@@ -10,11 +10,13 @@
     width: 100%;
     top: 1vw;
     justify-content: center;
+    z-index: 1;
 } 
 
 #logo-box {
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 

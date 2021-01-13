@@ -4,7 +4,7 @@ $icons = get_field('icons');
 
 ?>
 
-<div class="container">
+<div class="container-fluid" id="icon-bar-container">
 
     <div class="row">
 
@@ -19,7 +19,7 @@ $icons = get_field('icons');
 
                     <div id="icon-box">
 
-                        <img src="<?php echo $pic; ?>" alt="">
+                        <img src="<?php echo $pic; ?>" alt="" class="img-fluid">
                         <p><?php echo $cap; ?></p>
 
                     </div>   

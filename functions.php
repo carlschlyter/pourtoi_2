@@ -41,6 +41,7 @@ add_image_size('hero-image-max', 2560, 1200, true);
 add_image_size('hero-image-shallow', 2560, 800, true);
 add_image_size('icon-image', 60, 60, true);
 add_image_size('offers-image', 300, 150, true);
+add_image_size('offers-image-2', 300, 300, true);
 add_image_size('article-image', 600, 450, true);
 add_image_size('miniature-image', 180, 120, true);
 add_image_size('imgtxt-section-image', 375, 250, true);
@@ -84,6 +85,17 @@ function register_acf_block_types(){
             'description'       => __('Settings Icon Bar Section'),
             'render_template'   => get_template_directory() . '/template-parts/blocks/icon_bar_section/icon_bar_section.php',
             'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/icon_bar_section/icon_bar_section.css',
+            'category'          => 'design',
+        )
+    );    
+
+    acf_register_block_type(
+        array(
+            'name'              => 'offers-section',
+            'title'             => __('Offers Section'),
+            'description'       => __('Settings Offers Section'),
+            'render_template'   => get_template_directory() . '/template-parts/blocks/offers_section/offers_section.php',
+            'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/offers_section/offers_section.css',
             'category'          => 'design',
         )
     );    

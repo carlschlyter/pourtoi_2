@@ -1,9 +1,17 @@
 
+#icon-bar-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 #icon-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-
+    background-color: rgb(228, 209, 176);
+    margin-top: 0.15vw;
 }
 
 #icon-box {
